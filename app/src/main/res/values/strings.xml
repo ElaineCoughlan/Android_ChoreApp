@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">HouseChores</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Home-->
+    <string name="Title">House Chores</string>
+    <string name="total"></string>
+    <string name="ticked"></string>
+    <string name="totalChores">Total number: </string>
+    <string name="completed">Amount completed: </string>
+    <string name="subTitle">Enter details below to add chore to list</string>
+    <string name="enterTask"></string>
+    <string name="enterDay"></string>
+    <string name="addButton">Add</string>
+
+    <string name="taskhint">Enter task to be completed</string>
+    <string name="dayhint">Enter day for the task to be done</string>
+    <string name="nameHint">Assign task to</string>
+    <!--MENU -->
+    <string name="action_home">Home</string>
+    <string name="action_list">Task List</string>
+    <string name="action_reset">Delete All</string>
+    <string name= "action_search">Search by day</string>
+    <string name="action_name">Search by name</string>
+
+    <!--ROW-->
+    <string name="checkbox"></string>
+    <string name="deletebutton">Delete</string>
+    <string name="editbutton">Edit</string>
+
+    <!--Search-->
+    <string name="search">Search</string>
+    <string name="searchResults">Search Results</string>
+    <string name="searchHint">Enter a day of the week</string>
+    <string name="SearchName">Enter name</string>
+    
+
+
+
+
+</resources>

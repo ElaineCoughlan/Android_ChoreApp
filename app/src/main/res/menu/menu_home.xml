@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="projectr.housechores.MainClasses.Home">
+
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="@string/action_home"
+        app:showAsAction="never"
+        android:onClick="homescreen"/>
+    <item
+        android:id="@+id/action_list"
+        android:orderInCategory="100"
+        android:title="@string/action_list"
+        app:showAsAction="never"
+        android:onClick="list"/>
+    <item
+        android:id="@+id/action_reset"
+        android:orderInCategory="100"
+        android:title="@string/action_reset"
+        app:showAsAction="never"
+        android:onClick="reset"/>
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        app:showAsAction="never"
+        android:onClick="searchday"/>
+    <item
+        android:id="@+id/action_nameSearch"
+        android:orderInCategory="100"
+        android:title="@string/action_name"
+        app:showAsAction="never"
+        android:onClick="searchname"/>
+
+</menu>

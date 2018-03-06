@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/images"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="53dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/search"
+        android:text="@string/search"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:drawable/btn_default"
+        android:backgroundTint="@android:color/background_light"
+        android:onClick="searchButtonPressed"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/searchHint"
+        android:ems="10"
+        android:layout_alignTop="@+id/search"
+        android:layout_toStartOf="@+id/search"
+        android:id="@+id/searchDay" />
+
+    <TextView
+        android:text="@string/searchResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/results"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/search"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/action_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+</RelativeLayout>

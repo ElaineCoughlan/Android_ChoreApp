@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/row_task"
+        android:layout_toStartOf="@+id/row_day"
+        android:layout_marginTop="18dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_alignParentTop="true"
+        android:maxLines="4"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/row_day"
+        android:layout_toStartOf="@+id/button2"
+        android:layout_marginEnd="19dp"
+        android:id="@+id/row_name"
+        android:maxLines="4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <!--https://stackoverflow.com/questions/10972436/relativelayout-textviews-overlapping-->
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/row_day"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:maxLines="4"
+        android:layout_alignBaseline="@+id/row_task"
+        android:layout_alignBottom="@+id/row_task"
+        android:layout_toStartOf="@+id/row_name"
+        android:layout_marginEnd="11dp" />
+    <Button
+        android:text="@string/deletebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:background="@android:drawable/btn_default_small"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/editbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@android:drawable/btn_default_small"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/button3" />
+
+</RelativeLayout>
